@@ -1,0 +1,56 @@
+#invader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    height: 95vh;
+    background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+}
+
+.form {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    padding: 2rem;
+    height: 5vh;
+    width: 100vw;
+    background-color: #24243e;
+    margin-bottom: 1rem;
+}
+
+.input, .button {
+    height: 2.5rem;
+    border: 1px solid #24243e;
+}
+
+.input:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.button {
+    color: antiquewhite;
+    background-color: #006BA6;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+}
+
+.line {
+    display: flex;
+}
+
+.case {
+    border: 1px solid;
+    border-color: #00507D;
+    height: 20px;
+    width: 20px;
+    background-color: #006BA6;
+}
+
+.active {
+    background-color: #00507D;
+}
